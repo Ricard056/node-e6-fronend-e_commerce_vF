@@ -13,6 +13,8 @@ export const { setProductsGlobal } = productsSlice.actions
 
 export default productsSlice.reducer
 
+
+
 const URL_BASE = import.meta.env.VITE_REACT_APP_URL
 
 export const getAllProductsThunk = (url = `${URL_BASE}/products`) => dispatch => {
